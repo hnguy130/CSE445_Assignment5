@@ -16,7 +16,7 @@
             <h2>Member Page</h2>
             <div class="dashboard-panel">
                 <p>Welcome, <asp:Label ID="lblUsername" runat="server" Font-Bold="true" />!</p>
-                <p>This page is for registered members only. Here you can manage your account and view store products.</p>
+                <p>This page is for registered members only. Here you can manage your account and view store products.</p> <p> You can return to defaultPage by clicking the left arrow button on top left of the browser!</p>
                 <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click" CssClass="action-btn" />
                 <asp:Button ID="btnChangePassword" runat="server" Text="Change Password" PostBackUrl="~/PasswordChange.aspx" CssClass="action-btn" />
             </div>

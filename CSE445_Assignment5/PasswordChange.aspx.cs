@@ -12,7 +12,7 @@ namespace CSE445_Assignment5
     public partial class PasswordChange: System.Web.UI.Page
     {
 
-        public static string pathToFile = HostingEnvironment.MapPath("~/App_Data/Users.xml");
+        public static string pathToFile = HostingEnvironment.MapPath("~/App_Data/Member.xml");
         public static XmlDocument database = new XmlDocument();
         public static XmlElement root;
         public static void readDatabase()

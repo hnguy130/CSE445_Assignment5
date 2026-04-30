@@ -73,7 +73,8 @@
     <None Include="Connected Services\bitcoinService\bitcoin_service.disco" />
     <None Include="Connected Services\bitcoinService\configuration91.svcinfo" />
     <None Include="Connected Services\bitcoinService\configuration.svcinfo" />
-    <Content Include="App_Data\Users.xml" />
+    <Content Include="App_Data\Staff.xml" />
+    <Content Include="App_Data\Member.xml" />
     <Content Include="Connected Services\bitcoinService\CSE445_Assignment5.bitcoinService.addBalanceResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>

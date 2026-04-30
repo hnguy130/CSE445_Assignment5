@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Users>
+  <User>
+    <Username>TestUser</Username>
+    <Password>7bcf9d89298f1bfae16fa02ed6b61908fd2fa8de45dd8e2153a3c47300765328</Password>
+    <Role>Member</Role>
+  </User>
+  <User>
+    <Username>a</Username>
+    <Password>6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b</Password>
+    <Role>Member</Role>
+  </User>
+</Users>

@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CSE445_Assignment5.Default" %>
+<%@ Register Src="~/palindromeVerifier.ascx" TagPrefix="uc" TagName="Palindrome" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -57,6 +58,21 @@
                         <td>Processes strings to return the reversed character sequence.</td>
                         <td>WSDL .svc service deployed on WebStrar architecture.</td>
                     </tr>
+                    <tr>
+                        <td>Ho Dang Khoa Nguyen</td>
+                        <td>User control</td>
+                        <td>Verifies if a string is a palindrome or not</td>
+                        <td>User control embedded in this page</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Ho Dang Khoa Nguyen</td>
+                        <td>WSDL Service</td>
+                        <td>Bitcoin management service that allows viewing balance, increasing balance, deducting balance, sign up, log in</td>
+                        <td class="auto-style4">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="bitcoinServicePage.aspx">WSDL service written in C#, and called as service reference to TryIt page</asp:HyperLink>
+            </td>
+                    </tr>
                 </tbody>
             </table>
         </div>
@@ -86,6 +102,10 @@
                 <asp:TextBox ID="serviceInputBox" runat="server" Width="300px" placeholder="Enter text to reverse..."></asp:TextBox>
                 <asp:Button ID="executeServiceBtn" runat="server" Text="Process String" OnClick="executeServiceBtn_Click" CssClass="action-btn" />
                 <asp:Label ID="serviceOutputLbl" runat="server" CssClass="result-text"></asp:Label>
+            </div>
+            <div>
+                <h4>4. Palindrome verifier</h4>
+                <uc:Palindrome ID="myPalindrome" runat="server" />
             </div>
         </div>
     </form>

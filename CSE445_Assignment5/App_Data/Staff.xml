@@ -5,9 +5,4 @@
     <Password>d85b22f0890f5e82d76967037156f2a0bf779bcd44123bd5a2fa7ab299a289d6</Password>
     <Role>Staff</Role>
   </User>
-  <User>
-    <Username>TestUser</Username>
-    <Password>7bcf9d89298f1bfae16fa02ed6b61908fd2fa8de45dd8e2153a3c47300765328</Password>
-    <Role>Member</Role>
-  </User>
 </Users>
