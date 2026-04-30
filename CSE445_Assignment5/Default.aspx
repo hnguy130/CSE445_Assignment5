@@ -20,7 +20,7 @@
 <body>
     <form id="mainForm" runat="server">
         <h2>Assignment 5 Application Portal</h2>
-        <p>Individual Submission by: <strong>Chin Kuo</strong> (Site 93)</p>
+        <p>Team Submission by: <strong>Chin Kuo, Ho Dang Khoa Nguyen, Kesler Lee</strong> (Site 93)</p>
 
         <div class="dashboard-panel">
             <h3>Navigation Hub</h3>
