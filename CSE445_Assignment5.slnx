@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="UserManager.cs" />
+  </Folder>
+  <Project Path="CSE445_Assignment5/CSE445_Assignment5.csproj" Id="24681bbc-281c-4f6b-9579-07a375d079f9">
+    <BuildDependency Project="bitcoinServiceWSDL/bitcoinServiceWSDL.csproj" />
+  </Project>
+  <Project Path="EncryptionLibrary/EncryptionLibrary.csproj" Id="f72ff35d-852a-4a62-b5a3-d4b531d32aae" />
+  <Project Path="bitcoinServiceWSDL/bitcoinServiceWSDL.csproj" Id="aade769e-73da-4c79-a88c-078ff15e0a50" />
+</Solution>
